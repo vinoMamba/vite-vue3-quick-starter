@@ -8,7 +8,11 @@ module.exports = {
   moduleFileExtensions: ['vue', 'js', 'json', 'jsx', 'ts', 'tsx', 'node'],
   // 别名设置
   moduleNameMapper: {
-    '@/(.*)$': '<rootDir>/src/components/$1'
+    '@/(.*)$': '<rootDir>/src/components/$1',
+    '\\.(vs|fs|vert|frag|glsl|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
+      '<rootDir>/__tests__/__mocks__/fileMock.ts',
+    '\\.(sass|s?css|less)$': '<rootDir>/__tests__/__mocks__/styleMock.ts',
+    '\\?worker$': '<rootDir>/__tests__/__mocks__/workerMock.ts'
   },
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
@@ -18,7 +22,7 @@ module.exports = {
 
   transform: {
     '^.+\\.vue$': 'vue-jest',
-    '^.+\\.(ts|tsx|js|jsx)$': [
+    '^.+\\.(ts|js|jsx|tsx)$': [
       'babel-jest',
       {
         presets: [
