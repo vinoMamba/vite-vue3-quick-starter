@@ -39,6 +39,11 @@
   resolved "https://registry.yarnpkg.com/@emmetio/scanner/-/scanner-1.0.0.tgz#065b2af6233fe7474d44823e3deb89724af42b5f"
   integrity sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==
 
+"@types/node@^16.10.1":
+  version "16.10.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.1.tgz#f3647623199ca920960006b3dccf633ea905f243"
+  integrity sha512-4/Z9DMPKFexZj/Gn3LylFgamNKHm4K3QDi0gz9B26Uk0c8izYf97B5fxfpspMNkWlFupblKM/nV8+NA9Ffvr+w==
+
 "@vitejs/plugin-vue@^1.9.0":
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.9.2.tgz#7234efb8c3c3d60c7eac350a935074ab1820ae0e"
