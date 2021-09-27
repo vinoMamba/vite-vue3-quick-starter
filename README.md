@@ -6,4 +6,12 @@
 
 1. (EditorConfig)[https://editorconfig.org/]
 
-2. (prettier)[]
+2. (prettier)[https://prettier.io/docs/en/options.html]
+
+3. eslint
+
+4. husky
+
+5. vut + jest
+
+
