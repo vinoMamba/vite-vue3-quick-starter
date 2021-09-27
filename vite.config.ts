@@ -8,13 +8,13 @@ export default defineConfig({
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src')
-    }
+      '@': resolve(__dirname, 'src'),
+    },
   },
   base: './',
   server: {
     port: 3324,
     open: true,
-    cors: true
-  }
+    cors: true,
+  },
 })
